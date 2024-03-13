@@ -15,4 +15,4 @@ resource "google_storage_bucket" "rahul-gcs-bucket-for-tf-state-file" {
           enabled = true
    }
 }
-/*
+*/
