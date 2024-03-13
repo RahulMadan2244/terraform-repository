@@ -1,7 +1,7 @@
-#Terraform state in a Cloud Storage bucket
-backend "gcs" {
-   bucket  = "rahul-gcs-bucket-for-tf-state-file"
-   prefix  = "terraform/state"
+#/Terraform state in a Cloud Storage bucket
+/*backend "gcs" {
+   #bucket  = "rahul-gcs-bucket-for-tf-state-file"
+   #prefix  = "terraform/state"
 }
 
 resource "google_storage_bucket" "rahul-gcs-bucket-for-tf-state-file" {
@@ -15,3 +15,4 @@ resource "google_storage_bucket" "rahul-gcs-bucket-for-tf-state-file" {
           enabled = true
    }
 }
+/*
